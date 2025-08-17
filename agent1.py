@@ -1,11 +1,3 @@
-# Strands Agent1 Python Migration - 로깅 개선 버전
-# Requirements: pip install strands-agents boto3 opensearch-py requests
-# Environment Variables:
-#   AWS_REGION=us-east-1
-#   OPENSEARCH_HOST=<your-collection-endpoint>.aoss.amazonaws.com
-#   KB_ID=<bedrock_knowledge_base_id>
-#   CLAUDE_SONNET_MODEL=anthropic.claude-3-5-sonnet-20240620-v1:0
-
 import json
 import os
 import time
